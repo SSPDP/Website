@@ -1,0 +1,118 @@
+/* Website styles */
+
+*{
+  font-size: 100%;
+  font-family: helvetica, arial;
+  margin: 4
+  line-height: 1;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif
+  margin: 50px;
+  background-image: url(images/double-bubble-dark.png);
+}
+
+.banner {
+  height: 350px;
+  background-image: url(images/desktop.jpg);
+  background-size: 100%;
+  background-position: center;
+  margine-bottom: 20px;
+  padding: 10px;
+}
+
+.caption {
+  /* color: black; */
+  text-align: center;
+  font-weight: bold;
+  margin-top: -200px;
+  position: relative;
+  color: b lack;
+  font-weight: bold;
+  width: 20%
+  height: 20%
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica, Arial;
+  font-size: 36pt;
+  font-weight: bold;
+  font-style: normal;
+  border: 2px solid red;
+}
+
+h2 {
+  color: red;
+  font-family: Helvetica, Arial;
+  font-size: 30pt;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+}
+
+header {
+  color: rbg(44, 44, 44);
+}
+
+section p {
+  color: red;
+  font-size: 24pt;
+}
+
+h3 {
+  color: green;
+  font-size: 30pt;
+  font-style: normal;
+  line-height: 6;
+}
+
+h4 {
+  color: blue;
+}
+
+ul {
+  color: pink;
+}
+
+footer{
+  color: white;
+  background-color: aqua;
+  text-decoration: underline;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: underline;
+  color: green;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  font-size: 25pt;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: blue;
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 48px;
+  text-decoration: underline;
+}

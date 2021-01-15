@@ -1,8 +1,56 @@
+/* SSPDP Style */
+
 *{
-  background-color: black;
   font-size: 100%;
   font-family: helvetica, arial;
+  text-align: right;
   color: white;
+  margin: 0;
+    line-height: 1;
 }
 
 body {
+  margin: 50px;
+  background-image: url(images/cedarbackground.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica, Arial;
+  font-size: 25pt;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: underline;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+section p {
+  margin-bottom: 20px;
+  width: 75%;
+  padding: 10px;
+  text-align: right;
+}
+
+.salish {
+  max-width: 75%;
+  padding: 10px;
+  text-align: right;
+  margin-left: 30%;
+}
+
+section1 img {
+  width: 700px;
+  height: 300px;
+  padding: 20px;
+}
+
+.salish1 {
+  max-width: 40%;
+  padding: 20px;
+  text-align: right;
+  margin-left: 60%;
+  margin-right: 0;
+}
